@@ -22,6 +22,9 @@ This console application is designed for personal finance management. It allows 
 This will download all the necessary dependencies and compile the project.
 
 ### 3. Commands Supported by the Service
+- `menu` - display the menu of available commands;
+- `su` - user sign-up;
+- `si` - user sign-in;
 - `cw` - create a new wallet;
 - `chgw` - switch wallet;
 - `dw` - delete a wallet;
@@ -29,9 +32,11 @@ This will download all the necessary dependencies and compile the project.
 - `aexp` - record expenses;
 - `bal` - get current balance information;
 - `increp` - get income report;
+- `allcat` - display all available categories;
 - `exprep` - get expenses report;
 - `frep` - get full report;
 - `cb` - set budget for a category;
 - `wtrans` - transfer funds to another wallet;
 - `utrans` - transfer funds to another user;
-- `lo` - log out of the account.
+- `lo` - log out of the account;
+- `x` - exit the application.
